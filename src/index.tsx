@@ -18,3 +18,4 @@ export const Thing: FC<Props> = ({ children }) => {
 // Dessa forma exporto tudo que estiver dentro de AbBotao
 
 export * from './componentes/AbBotao'
+export * from './componentes/AbCard'
