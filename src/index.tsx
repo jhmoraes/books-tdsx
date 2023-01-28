@@ -17,5 +17,8 @@ export const Thing: FC<Props> = ({ children }) => {
 
 // Dessa forma exporto tudo que estiver dentro de AbBotao
 
-export * from './componentes/AbBotao'
-export * from './componentes/AbCard'
+export * from './componentes/AbBotao/AbBotao.index'
+export * from './componentes/AbCard/AbCard.index'
+export * from './componentes/AbTag/AbTag.index'
+export * from './componentes/AbGrupoOpcoes/AbGrupoOpcoes.index'
+export * from './componentes/AbCampoTexto/AbCampoTexto.index'
